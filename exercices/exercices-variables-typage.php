@@ -4,8 +4,10 @@
     * Exercice 1
     * Afficher "Bienvenue chez Sel & Miel" 
     */
+    echo "Exercice 1 <br/>"; //<br/> retour à la ligne en HTML  
+    echo "Bienvenue chez Sel & Miel";
 
-
+    
 
     /**
     * Exercice 2
@@ -14,7 +16,18 @@
     *  "Sel & Miel" étant contenue dans une variable 
     */
 
-  
+    echo "<br/>"; 
+
+    echo "Exercice 2 <br/>";
+
+    $nom ="Bienvenue chez Sel & Miel"; 
+    echo $nom;// affiche juste le contenu de la variable $nom
+
+    echo "<br/>"; //retour à la ligne
+    echo "Exercice 2 - toujours <br/>";
+
+    $selEtMiel ="Chez Sel & Miel";
+    echo "Bienvenue ".$selEtMiel; 
     
     /**
      * 
@@ -33,9 +46,14 @@
      *
      *  Le résultat attendu:  "Bienvenue chez Sel & Miel"
      */
+        //exemple avec titre <h3></h3> pour retours à la ligne faciles
+        echo "<h3>Exercice 3</h3>"; 
 
+        $bienvenue="Bienvenue ";
+        $chezSelEtMiel="Chez Sel & Miel";
 
-     
+        echo $bienvenue.$chezSelEtMiel;
+
 
     /**
      * 

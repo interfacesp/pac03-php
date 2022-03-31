@@ -18,6 +18,8 @@
  $nombreDecimal = 10.20; 
  $isCool= false; 
  $isAlmostWeekend= true; 
+ $unNombreEnTexte= "10";  // c'est du texte
+ $unNombre= 10; //c'est un nombre
 
  echo $unNom_Tres_Long_VraimentTres_Long ;
  
