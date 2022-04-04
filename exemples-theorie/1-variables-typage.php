@@ -1,6 +1,19 @@
 <?php
 
- echo "<h2>Variables et Types </h2>";
+ //Ceci est un commentaire sur une ligne
+
+ /**
+  * Ceci est un commentaire sur plusieurs 
+  * lignes. 
+  * Tout ce qui est écrit en commentaire, n'est pas traité par
+  * le moteur d'exécution du langage PHP
+  */
+
+/**
+ * 1. Instruction Echo
+ */
+
+echo "<h2>Variables et Types </h2>"; 
 
 /**
  * Déclaraction d'une variable 
