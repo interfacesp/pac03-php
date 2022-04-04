@@ -28,6 +28,17 @@
 
 echo "<h2>Variables et Types </h2>"; 
 
+
+/**
+   * Types de données de base : chaînes de caractères, nombres, valeurs booléenes,
+   */
+
+   $uneChaineDeCarac= "texte"; 
+   $unNombre= 12; 
+   $uneValeurBoolVrai= true;
+   $uneValeurBoolFaux= false; 
+   $uneValeurNull = NULL; //variable déclarée mais pas encore de valeur. 
+
 /**
  * Déclaraction d'une variable 
  * 
@@ -99,6 +110,7 @@ echo "<h2>Variables et Types </h2>";
     echo "Autre ligne";
 
 
+  
 
 
 ?>
