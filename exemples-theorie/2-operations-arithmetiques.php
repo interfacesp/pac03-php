@@ -8,7 +8,7 @@
      $nombre2 = 11; 
      $resultatAdd = $nombre1 + $nombre2; 
 
-     echo "Résultat Addition: ". $resultatAdd; 
+     echo " $nombre1 + $nombre2 : ". $resultatAdd; 
 
      /**
      *  Soustraction 
@@ -18,7 +18,7 @@
     $nombre2 = 11; 
     $resultatMinus = $nombre1 - $nombre2; 
 
-    echo "Résultat Soustraction: ". $resultatMinus; 
+    echo "$nombre1 - $nombre2 : ". $resultatMinus; 
 
 
     /**

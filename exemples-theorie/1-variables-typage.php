@@ -1,5 +1,15 @@
 <?php
 
+ /**
+  * Instruction de base. 
+  * L'instruction suivante affiche un texte "Bonjour". 
+
+  * Toute instruction doit se terminer par un point-virgule
+  */
+
+  echo "Bonjour"; 
+
+
  //Ceci est un commentaire sur une ligne
 
  /**
@@ -9,8 +19,11 @@
   * le moteur d'exécution du langage PHP
   */
 
+
+
+
 /**
- * 1. Instruction Echo
+ * Affichage du texte "Variables et Types" entouré de balises HTML
  */
 
 echo "<h2>Variables et Types </h2>"; 
@@ -37,37 +50,55 @@ echo "<h2>Variables et Types </h2>";
  echo $unNom_Tres_Long_VraimentTres_Long ;
  
 
- /**
-  * Concaténation de chaines de caractères 
+ /** 
+  * Concaténation : Fusion 
+  * Opérateur de concaténation: . (un point)
+  * 
+  * Combinaisons possibles: 
+  *  1. chaîne de caractères avec chaîne de caractère
+  *  2. chaîne de carcatères avec nombre 
+
+  * Une des deux chaînes de caractères peut être dans une variable 
   */
 
   echo "<h3>Chaines de caractères</h3>";
 
-   echo 'Retour à la ligne'. "\n";
    echo 'Mon nom est'. $unNom_Tres_Long_VraimentTres_Long. " <br />"; 
   
  /**
-  * Opérations 
+  * Opérations arithmétiques 
   */
 
+  echo "<h3>Opérateurs Arithmétiques </h3>";
+
+   $retourLigne= "<br/>";
    $total = 10 + 12; 
    $soustraction = 10 - 2; 
+  
 
+   echo "10 + 12 = ". $total. $retourLigne;  
 
-   echo 'simple guillement : Le total est $total'; 
-   echo "double guillement: Le total est $total";
-   echo "test fin de ligne" ; 
+   echo "10 - 2 = ". $soustraction . $retourLigne;  
+
+   echo 'simple guillements: les variables ne sont pas évaluées - exemple avec $total '; 
+
+   echo $retourLigne; 
+
+   echo "double guillements: les variables sont remplacées par leurs valeurs - exemple avec $total";
+
 
    /**
     * Retour à la ligne
     */
-    echo "******************* Retour à la ligne******************* <br />"; 
+    echo "<h3>Retour à la ligne</h3>"; 
     
     echo "Retour à la ligne en HTML <br/>";
+
+    echo "Retour à la ligne en ligne de commande - qui ne marche pas sur une page Web \n";
+
     echo "Autre ligne";
 
-    echo "Retour à la ligne en ligne de commande \n";
 
-   
+
 
 ?>
