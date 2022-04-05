@@ -58,10 +58,16 @@
     /**
      * 
     * Exercice 4 
-    * Afficher le nom d'une crêpe et son prix, en utlisant des variables
+    * Afficher le nom d'une crêpe et son prix, en utilisant des variables
     *  exemple: Crêpe aux Fraises: 9 EUR
     */
 
+    echo "<h4>Exercice 4</h4>";
+
+    $crepeFraise= "Crêpe aux Fraises"; 
+    $prixCrepeFraise = 9;
+    
+    echo $crepeFraise. " : ". $prixCrepeFraise. " EUR";
    
 
     /**
@@ -77,7 +83,40 @@
      * 
      */
 
+     echo "<h4>Exercice 5 </h4>";
+
+     $crepeFraises = "Crêpe aux Fraises";
+     $prixCrepeFraises= 9;
+     $majorationTVA = $prixCrepeFraises * 0.06;
+     $prixTotalCrepeFraise= $prixCrepeFraises + $majorationTVA; 
      
+     echo "<p>  Crêpe aux Fraises HTVA...........". $prixCrepeFraise. " EUR </p>";
+     echo "Crêpe aux Fraises TVAC.............". $prixTotalCrepeFraise. " EUR </p> "; 
+
+     $crepeSucre = "Crêpe aux Sucre"; 
+     $prixCrepeSucre = 10; 
+     $majorationTVASucre = $prixCrepeSucre * 0.06; 
+     $prixTotalCrepeSucre = $prixCrepeSucre + $majorationTVASucre; 
+
+      
+     echo "<p>  Crêpe Sucre HTVA :". $prixCrepeSucre. " EUR </p>";
+     echo "Crêpe aux Sucre TVAC. :". $prixTotalCrepeSucre. " EUR </p> "; 
+
+
+
+     $crepeSucre = "Crêpe aux Oeufs"; 
+     $prixCrepeOeufs = 20; 
+     $majorationTVAOeufs = $prixCrepeOeufs * 0.06; 
+     $prixTotalOeufs = $prixCrepeOeufs + $majorationTVAOeufs;
+     
+     
+     echo "<p>  Crêpe Oeufs HTVA :". $prixCrepeOeufs. " EUR </p>";
+     echo "<p> Crêpe aux Oeufs TVAC. :". $prixTotalOeufs. " EUR </p> "; 
+
+
+
+
+    
 
 
 
