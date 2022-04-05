@@ -109,8 +109,17 @@ echo "<h2>Variables et Types </h2>";
 
     echo "Autre ligne";
 
+    /**
+     * Retour à la ligne avec <p> </p>
+     */
 
-  
+    $prixChemise = 10;
+    $prixChaussure = 15; 
+
+    echo "<p>Prix de la chemise équivaut à ". $prixChemise. "</p>" ;
+    
+    //autre façon de faire pour illustrer la fusion (concaténation)
+    echo "<p>". "Prix de la chemise équivaut à ". $prixChemise. "</p>"; 
 
 
 ?>
