@@ -59,7 +59,7 @@
 
 
     /**
-     *  Modulo : le reste de la division 
+     *  Modulo : le reste de la division entière 
      */
 
     echo "<h3>Modulo</h3>";

@@ -84,19 +84,37 @@ echo "<p>Il reste". ($totalBoite - $nbAllPrises). " </p>";
  /**
  * Exercice 4
  * 
- *  Vous êtes sorties entre  copines (5 au total), manger des pizzas, 12,56 EUR chacune. 
+ *  Vous êtes sorties entre  copines (5 au total), avaient mangé des pizzas, pour 12,56 EUR chacune. 
  *  Combien sera l'addition ? 
  *  Calculez et afficher ce nombre 
  */
 
+  echo "<h4>Exercice 4</h4>";
+  $prixPizza = 12.56;
+  $nbCopines = 5;
+
+  $totalAddition = $prixPizza * $nbCopines; 
+
+  echo "<p>Grazie (merci) de payer le total de  ". $totalAddition ." EUR </p>";
  
 
  /**
  * Exercice 5
  * 
- *  Calculer et afficher le reste de la division de 25 par 3
+ *  Calculer et afficher le reste de la division de 25 par 3. 
+ *  Indice : utilisez l'opération modulo 
+ * 
+ * 
  * 
  */
+
+echo "<h4>Exercice 5</h4>"; 
+
+$nombre1= 25;
+$nombre2= 3; 
+echo "<p> Le reste de la division de $nombre1 par $nombre2 = ". ($nombre1 % $nombre2). "</p>";
+
+ 
 
 
 
