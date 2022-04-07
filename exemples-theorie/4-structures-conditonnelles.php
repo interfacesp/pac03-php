@@ -95,6 +95,66 @@ echo "<ul>
             echo "<p>Désolé, pas possible </p>";
         }
 
+
+        /**
+         * Le videur en boite de nuit 
+         */
+
+        $etreAccompagne = true; 
+        if(!$etreAccompagne) {
+         // si pas accompagné 
+         echo "<p>Vous ne pouvez pas rentrer! </p>";
+        }else {
+         echo "<p> Bienvenue! </p>"; 
+        }
+
+      // Même résultat : logique inverse
+        if($etreAccompagne) {
+         echo "<p> Bienvenue! </p>"; 
+
+       }else {
+         echo "<p>Vous ne pouvez pas rentrer! </p>";
+        }
+
+        /**
+         * Toujours en boite de nuit: 
+         *  Pour rentrer: 
+         *      être accompagné 
+         *           oui: ok on rentre
+         *           non: très très beau ? 
+         *                 oui: ok on rentre
+         *                 non: désolé, c'est la Direction   
+         */
+
+         $etreAccompagne= false; 
+         $avecTenueSoiree = false; 
+         if($etreAccompagne) {
+            echo "<p>Bienvenue en boîte </p>"; 
+         }elseif($avecTenueSoiree) {
+            echo "<p>Entrez en piste ;) </p>";
+         }else {
+            echo "<p>Rentrez !</p>";
+         }
+
+
+         if($etreAccompagne && $avecTenueSoiree){
+            echo "<p>Bienvenue en boite
+                  Entrez en piste ;) 
+            </p>";
+         }
+
+         $compteurPoints= 0;
+         //
+         if($etreAccompagne) {
+            echo "<p>Bienvenu en boite</p>";
+         }
+         if($avecTenueSoiree){
+            echo "<p>Entrez en piste ;) </p>";
+            $compteurPoints++; 
+         }
+
+
+
      /**
       * Opérateur ternaire: (condition) ? [instruction si vrai] : [instruction si faux]
       */
@@ -123,6 +183,7 @@ echo "<ul>
 
 
      echo RETOUR_LIGNE;
+
 
      /**
       * Switch 

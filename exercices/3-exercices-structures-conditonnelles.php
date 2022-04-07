@@ -132,7 +132,41 @@
       echo $lettre."-->". $result; 
       echo "</p>"; 
     
-  
+      /**
+       * Exercice - Personnages
+       */
 
+      echo "<h4>Switch Personnage </h4>"; 
+      $personnage = "guerrisseur";
+      switch($personnage){
+         case "sorcier": 
+               echo "vous avez choisi le sorcier"; 
+               break;
+         case "guerrier": 
+               echo "vous avez choisi le guerrier"; 
+               break; 
+         case "roi": 
+               echo "vous avez choisi un roi";
+               break;
+         case "elf":
+               echo "vous avez choisi l'elf"; 
+               break; 
+         default: echo "Pas de personnage correspondant"; 
+         
+      }
+
+      echo "<h4>Switch implémenté avec if elseif else</h4>";
+
+      if($personnage == "sorcier"){
+         echo "vous avez choisi un sorcier"; 
+      }elseif($personnage == "guerrier"){
+         echo "vous avez choisi un guerrier"; 
+      }elseif($personnage == "roi"){
+         echo "vous avez choisi un roi"; 
+      }elseif ($personnage == "elf"){
+         echo "vous avez choisi un elf";
+      }else {
+         echo "Pas de personnage correspondant";
+      }
 
 ?>
