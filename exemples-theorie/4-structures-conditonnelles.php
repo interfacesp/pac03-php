@@ -23,6 +23,7 @@ echo "<ul>
      */
 
     
+   
      $prixCrepe = 15; 
      $reference = 10;
 
@@ -32,6 +33,67 @@ echo "<ul>
         echo "Le prix de la crêpe est supérieur ou égal à ". $reference;
      }
 
+     /**
+      * Si une personne   18 ans ou plus, on affiche: "vous êtes majeur" 
+      *  
+      */
+      echo "<h4>Test âge</h4>"; 
+      $age = 19; 
+      if($age >= 18){
+         echo "Vous êtes majeur"; 
+      } else {
+         echo "Vous êtes mineur"; 
+      }
+
+      /**
+       * Dans un parc d'attraction, il faut mesurer au moins 150cm 
+       * ou avoir au moins 10ans pour avoir accès le train fantôme 
+       */
+     
+       $age= 9;
+       $taille= 100;
+
+       if( $age >= 10 || $taille >= 150){
+          echo "<p> Bienvenue dans le train fantôme</p>";
+       } else { // age est inférieur à 10 Et taille inférieure à 150
+          echo "<p>A dans quelques années </p>";
+       }
+
+       /**
+        * Changement de règle dans parc d'attraction
+        * Condition 1 : avoir au moins 10 ans (10 ans ou plus)
+        * Condition 2: avoir au moins 150cm (150 cm ou plus)
+        * Les deux conditions doivent 
+        */
+      
+        $age = 10; 
+        $taille = 110; 
+
+        if($age >= 10 && $taille >= 150){
+           echo "<p> Vous pouvez rentrer dans le train</p>";
+        }else { //soit  age < 10 ou $taille < 150 
+           echo "<p>Désolé, revenez une autre fois</p>";
+        }
+
+        /**
+        * Changement de règle dans parc d'attraction
+        * Condition 1 : avoir au moins 10 ans (10 ans ou plus) et être accompagné par un parent
+        *        ou 
+        * Condition 2: avoir au moins 150cm (150 cm ou plus)
+        * Les deux conditions doivent 
+        */
+
+        $age= 10; 
+        $taille = 149; 
+        $etreAccompagne = false;
+
+        if(($age >=10 && $etreAccompagne) || $taille >= 150 ){
+            // on au moins 10 ans et accompagné ou mesure au moins 150cm
+            echo "<p>Vous pouvez rentrer</p>";
+        
+         }else {
+            echo "<p>Désolé, pas possible </p>";
+        }
 
      /**
       * Opérateur ternaire: (condition) ? [instruction si vrai] : [instruction si faux]
