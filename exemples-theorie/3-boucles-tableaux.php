@@ -5,13 +5,38 @@ define ("END_LINE", "<br />");
 /**
  * Boucle - While 
  */
-
-$counter=1;
+echo "<p>Boucle while </p>";
+$counter= 1;
 
 while ($counter <= 10 ) {
-        echo "C'est bon, les crêpes!". END_LINE; 
-        $counter++;
+        echo "<p>C'est bon, les crêpes! $counter</p>"; 
+        $counter++;// $counter = $counter +1 ;
 }
+
+// $valeurPiece = lancer la pièce
+while ($valeurPiece == "pile") {
+        // exécuter instruction 1
+        // exécuter instruction 2
+        // $valeurPiece = // lancer la pièce; 
+}
+
+// $minimum = 20
+// $temperature= mesureTemperature 
+while ($temperate < $minimum ) {
+        //activer chauffage
+        //...
+        //$temperature = mesureTemperature 
+        
+}
+
+echo "<h4>Boucle For </h4>"; 
+for ($index = 0; $index < 10; $index++){
+        echo "<p> C'est bon, les crêpes! $index </p> "; 
+}
+
+
+
+
 
 $index=1;
 while ($index <= 10){
