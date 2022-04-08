@@ -3,7 +3,8 @@
 /**
  *  Exercice 1
  * 
- * Sel et Miel dispose de 10 Places numérotées de 1 à 10, à l'aide d'une boucle
+ * Sel et Miel dispose de 10 Places numérotées de 1 à 10. 
+ * A l'aide d'une boucle
  *  
  * 
  * Afficher la liste des tables :
