@@ -72,9 +72,9 @@ $unTableauDeTableaux =  [
 
 
 
-$unTableau[] = 12;
-$unTableau[] = 13; 
-$unTableau[0] = 15;
+$unTableau[] = 12; // on ajoute le nombre 12 à la fin du tableau
+$unTableau[] = 13;  // on ajoute le nombre 13 à la fin du tableau
+$unTableau[0] = 15; // on remplace l'élément, qui est à la position 0, par 15
 
 // Les indices d'un tableau commencent toujours à 0 (zéro)
 
