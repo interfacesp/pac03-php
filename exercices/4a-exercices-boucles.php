@@ -12,12 +12,18 @@
  * - ...
  * - Place 10 
  * 
- *  Boucle While ou For
+ *  Boucle:
+ *  While 
+ *      et
+ *  For
  * 
  *  Exemple: 
  *   while (...) {
  *      affiche numéro 
  *    }
+ * 
+ *   for(...) {}
+
  * 
  */
 
@@ -34,13 +40,18 @@
  
    /**
    * Exerice 1.a 
-   *  Comptage jusqu'à 10
+   *  Implémenter un comptage jusqu'à 10, à l'aide d'une boucle
+   *    while
+   *    for 
    *
    */
 
   /**
     * Exercice 1.b
-    *   Ascenceur 
+    *   Afficher les numéros d'étage d'un immeuble de 20 étages.
+    *   en utilisant une boucle 
+    *       - for 
+    *       - while 
     */
 
  
