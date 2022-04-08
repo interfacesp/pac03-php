@@ -177,4 +177,10 @@ echo '<pre>';
 print_r($menu);
 echo '</pre>';
 
+
+//Afficher prix de la crêpe sarrasin 
+echo $menu[0]['prix']; //affiche 10
+$menu[0]['prix'] = 100; 
+echo $menu[0]['prix']; // affiche 100
+
 ?>
