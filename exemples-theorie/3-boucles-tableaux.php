@@ -10,6 +10,10 @@ $counter= 1;
 
 while ($counter <= 10 ) {
         echo "<p>C'est bon, les crêpes! $counter</p>"; 
+        //instruction 2 
+        //instruction 3
+        //... 
+
         $counter++;// $counter = $counter +1 ;
 }
 
@@ -22,7 +26,7 @@ while ($valeurPiece == "pile") {
 
 // $minimum = 20
 // $temperature= mesureTemperature 
-while ($temperate < $minimum ) {
+while ($temperature < $minimum ) {
         //activer chauffage
         //...
         //$temperature = mesureTemperature 
@@ -30,8 +34,14 @@ while ($temperate < $minimum ) {
 }
 
 echo "<h4>Boucle For </h4>"; 
-for ($index = 0; $index < 10; $index++){
+for ($counter = 1; $counter <= 10; $counter++){
         echo "<p> C'est bon, les crêpes! $index </p> "; 
+        //instruction 2 
+        //instruction 3
+        // instruction 4
+        //...
+
+
 }
 
 
