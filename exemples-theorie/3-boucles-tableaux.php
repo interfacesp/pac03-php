@@ -102,18 +102,35 @@ echo $unTableau[2];
 
  }
 
+
 /**
+ * Equivalence des notations. 
+ * Les 3 notations suivantes sont sémantiquement équivalentes:
+ * Elles produisent le même résulat 
  * 
+ * $pos++
+ * $pos = $pos + 1;
+ * $pos+= 1;
+ * 
+*/
+ 
+
+/**
+ * Foreach - autre structure itérative
  */
 
  foreach ($unTableau as $elem) {
          echo $elem;
  }
 
+
+ /**
+  * Affichage contenu d'un tableau à l'aide de la fonction: print_r
+  */
  
  //Fonction spéciale déboggage 
- echo '<pre>';
-        print_r($unTableau);
+ echo '<pre>'; //balises permettant une lecture confortable à l'écran
+        print_r($unTableau); //print_r => affiche le contenu d'un tableau avec ses indices
  echo '</pre>';
 
 /**
