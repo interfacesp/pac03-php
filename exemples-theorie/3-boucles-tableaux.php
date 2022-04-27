@@ -35,13 +35,11 @@ while ($temperature < $minimum ) {
 
 echo "<h4>Boucle For </h4>"; 
 for ($counter = 1; $counter <= 10; $counter++){
-        echo "<p> C'est bon, les crêpes! $index </p> "; 
+        echo "<p> C'est bon, les crêpes! $counter </p> "; 
         //instruction 2 
         //instruction 3
         // instruction 4
         //...
-
-
 }
 
 
@@ -101,6 +99,14 @@ echo $unTableau[2];
          echo "Itération numéro ".$indexParcours. END_LINE;
 
  }
+
+ /**
+  * Tableau sous forme de constante
+  */
+
+define("CREPES", ["mikado", "chocolat"]); 
+
+echo "taille  tableau CREPES ". count(CREPES); 
 
 
 /**

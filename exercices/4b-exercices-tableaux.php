@@ -163,4 +163,50 @@
             echo "<p>". $menuAssoc[$a_index]["nom"]. ".....". $prixCrepeEnCours." EUR </p>"; 
         } 
     }
+
+
+
+    /**
+     * 1. Créer un tableau avec 3 éléments qui vous passionnent 
+     * 
+     * 2. Demandez à une de vos voisines leur élements. Créez ensuite un tableau associatif
+     * où la clé est leur nom, la valeur est le tableau d'éléments qui leur plaisent
+     */
+
+    //1. Définition de mon tableau: Oiseaux - Espoir
+    $oiseaux = ["mesange", "colibri", "corbeau"];
+    
+    //2. Demande du tableau de ma voisine 
+     //Nourriture - Laure
+     $bouffe = ["ceviche", "kellaj", "pizza"]; 
+
+    //3. Créez un tableau associatifs de passions comme ceci 
+    $passions = [
+        "Laure" =>["ceviche", "kellaj", "pizza"],
+        "Espoir" => ["mesange", "colibri", "corbeau"]
+    ]; 
+    
+    //Objectif 1: parcourir et afficher votre tableau à l'aide d'une boucle
+    //Objectif 2: parcourir et afficher, les passions par prénom 
+    
+    $laure = $passions["Laure"]; 
+    echo "Laure: "; 
+    for($i= 0; $i< count($laure); $i++){
+      echo $laure[$i]." <br/>" ; 
+    }
+
+
+
+
+    
+    
+
+
+
+
+
+
 ?>
+
+
+
