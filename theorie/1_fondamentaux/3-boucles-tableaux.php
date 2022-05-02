@@ -141,7 +141,8 @@ for ($i=0; $i < 2 ; $i++) {
  */
 //boucle foreach permet de parcourir un tableau en commençant par le début.
 //foreach permet de ne pas se préocupper des indices
- foreach ($unTableau as $elem) {
+echo "<h4>Boucle foreach</h4>";  
+foreach ($unTableau as $elem) {
          echo $elem."<br/>";
  }
 

@@ -1,6 +1,6 @@
 # PHP
-
 ## Une initiation à la programmation - Groupe Frontend Developers - WEB 11
+### Fondamentaux
 
 Le cours est subdivisé en plusieurs parties en suivant l'ordre suivant :
 1. Variables et types de données  
@@ -33,14 +33,23 @@ Le cours est subdivisé en plusieurs parties en suivant l'ordre suivant :
 4. Boucles et Tableaux 
    * For
    * While 
+   * Foreach
 5. Fonctions
    * Fonctions PHP
+     - documentation officielle: https://php.net
    * Création de fonctions personnalisées
 
-Il y a deux principaux dossiers: 
-- exemples-theorie : Les exemples théoriques pour chacune des parties. 
-- exercices : Des exercices pratiques pour chacune des parties. 
+### Développement Web 
 
+1. Mélange PHP et HTML 
+2. Inclusion de fichiers
+3. Envoie de données: Formulaire
+   
+### Base de données 
+En construction...
+### Php Orienté Objet
+
+Note: 
 Je vous recommande de suivre l'ordre indiqué afin de mieux comprendre l'usage de ces différents concepts. 
   
 
