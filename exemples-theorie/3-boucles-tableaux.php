@@ -3,7 +3,7 @@
 define ("END_LINE", "<br />");
 
 /**
- * Boucle - While 
+ * 1er type de boucle: While 
  */
 echo "<p>Boucle while </p>";
 $counter= 1;
@@ -18,6 +18,7 @@ while ($counter <= 10 ) {
 }
 
 // $valeurPiece = lancer la pièce
+$valeurPiece = "face"; 
 while ($valeurPiece == "pile") {
         // exécuter instruction 1
         // exécuter instruction 2
@@ -26,23 +27,14 @@ while ($valeurPiece == "pile") {
 
 // $minimum = 20
 // $temperature= mesureTemperature 
+$temperature = 20;
+$minimum = 20; 
 while ($temperature < $minimum ) {
         //activer chauffage
         //...
         //$temperature = mesureTemperature 
         
 }
-
-echo "<h4>Boucle For </h4>"; 
-for ($counter = 1; $counter <= 10; $counter++){
-        echo "<p> C'est bon, les crêpes! $counter </p> "; 
-        //instruction 2 
-        //instruction 3
-        // instruction 4
-        //...
-}
-
-
 
 
 
@@ -52,28 +44,44 @@ while ($index <= 10){
         $index++;
 }
 
+
 /**
- * Les Tableaux 
+ * 2ème type de boucle: For
+ */
+
+echo "<h4> Boucle For </h4>"; 
+for ($counter = 1; $counter <= 10; $counter++){
+        echo "<p> C'est bon, les crêpes! $counter </p> "; 
+        //instruction 2 
+        //instruction 3
+        // instruction 4
+        //...
+}
+
+
+/**
+ * Les Tableaux
+ * 
+ * Un tableau est une structure de données (variables) permettant de stocker une collection de valeurs.
+ * Ces valeurs peuvent être de type différent (texte, nombre, etc).
+ * 
+ * En PHP, il existe 2 types de tableaux : tableau numérotés et tableaux associatifs
  */
 
 
  /**
-  * Tableau numérotés 
+  * Tableau numérotés à 1 dimension  
   */
 
 $unTableau = ['1', '2', '3', 10, -2];
-$unTableauDeChaines= ['Un', "Deux", "Trois"];
-$unTableauDeTableaux =  [
-                         ['Petit Tonnerre', 'Yakari'], 
-                         ['Tintin', 'Milou']
-                        ]; 
 
-
-
+//Ajout d'un élement 
 $unTableau[] = 12; // on ajoute le nombre 12 à la fin du tableau
 $unTableau[] = 13;  // on ajoute le nombre 13 à la fin du tableau
 $unTableau[0] = 15; // on remplace l'élément, qui est à la position 0, par 15
 
+
+// On les appelle tableau numéroté car numérotés avec des indices. 
 // Les indices d'un tableau commencent toujours à 0 (zéro)
 
 //Affiche le 1 élément 
@@ -101,12 +109,16 @@ echo $unTableau[2];
  }
 
  /**
-  * Tableau sous forme de constante
+  * Déclaration et manipulation d'un tableau sous forme de constante
   */
 
 define("CREPES", ["mikado", "chocolat"]); 
-
 echo "taille  tableau CREPES ". count(CREPES); 
+
+for ($i=0; $i < 2 ; $i++) { 
+        # code...
+       echo CREPES[$i]; 
+}
 
 
 /**
@@ -119,14 +131,18 @@ echo "taille  tableau CREPES ". count(CREPES);
  * $pos+= 1;
  * 
 */
+
+
  
 
 /**
- * Foreach - autre structure itérative
+ * 3me type de boucle: Foreach
+ * 
  */
-
+//boucle foreach permet de parcourir un tableau en commençant par le début.
+//foreach permet de ne pas se préocupper des indices
  foreach ($unTableau as $elem) {
-         echo $elem;
+         echo $elem."<br/>";
  }
 
 
@@ -161,7 +177,26 @@ echo $liste;
 
 
 /**
- * Tableaux associatifs 
+ * Tableaux numérotés à plusieurs dimensions!
+ */
+
+$unTableauDeChaines= ['Un', "Deux", "Trois"];
+
+/**
+ * Tableau numéroté à 2 dimensions:  
+ */
+$unTableauDeTableaux = [ //tableau mère 
+                                ['Petit Tonnerre', 'Yakari'], // 1er élément tableau mère: aussi un tableau
+                                ['Tintin', 'Milou'] //2ème élément tableau mère: qui est aussi un tableau 
+                        ]; 
+
+
+/**
+ * 2ème type tableau: 
+ * 
+ * Tableaux associatif. 
+ * 
+ * 
  */
 
 $ficheIdentite= [

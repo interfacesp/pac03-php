@@ -104,5 +104,19 @@ function calculeTva($prixHTVA, $pourcentageTVA){
 
  
 
+/**
+ * Même exercice que pour les passions (voir fichier 4b-exercices-tableaux.php)
+ * 
+ *    1. Créer un tableau avec 3 éléments qui vous passionnent 
+* 
+*     2. Demandez à une de vos voisines leur élements. Créez ensuite un tableau associatif
+*     où la clé est leur nom, la valeur est le tableau d'éléments qui leur plaisent
+*     3. Utilisez la fonction php - array_keys() - pour obtenir la liste des clés du tableau associatif
+*     Aidez vous de la documentation officielle(php.net) pour voir comment l'appeler
+*     4. Parcourez le résultat de la fonction - array_keys() - pour afficher les passions correspondant à chaque
+*        clé. 
+ */
+
+
    
 ?>

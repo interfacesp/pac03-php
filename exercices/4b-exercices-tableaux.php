@@ -167,6 +167,9 @@
 
 
     /**
+     * Exercies - tableaux - passions
+     * 
+     * 
      * 1. Créer un tableau avec 3 éléments qui vous passionnent 
      * 
      * 2. Demandez à une de vos voisines leur élements. Créez ensuite un tableau associatif
