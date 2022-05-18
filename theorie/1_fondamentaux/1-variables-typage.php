@@ -61,6 +61,7 @@ echo "<h2>Variables et Types </h2>";
  echo $unNom_Tres_Long_VraimentTres_Long ;
  
 
+
  /** 
   * Concaténation : Fusion 
   * Opérateur de concaténation: . (un point)

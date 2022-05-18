@@ -7,8 +7,10 @@
     <title>Date du jour</title>
 </head>
 <body>
+
+    <h2>What's the date and time ?</h2>
     <p>
-         Date du jour: <?php echo date('Y-m-d'); ?>   
+         <?php echo date('Y-m-d h:i:s'); ?>   
     </p>
 </body>
 </html>
