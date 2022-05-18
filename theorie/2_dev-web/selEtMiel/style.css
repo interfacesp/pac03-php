@@ -1,0 +1,28 @@
+/* body {
+    text-align: center;
+} */
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ul{
+    list-style-type : none;
+} */
+
+footer{
+    background-color: lightsalmon;
+    color: white;
+}
+
+.carte {
+    border: 1px;
+    border-color: blanchedalmond;
+    border-style: solid;
+}
