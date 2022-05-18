@@ -1,0 +1,22 @@
+
+1. Choisissez un site de restaurant, de votre choix, qui possède 
+un menu (une carte) en ligne
+
+En général, un menu de restaurant comprends les catégories suivantes: 
+- Boissons
+- Entrées
+- Plats
+- Desserts
+
+2. Développez un simple site web permettant d'afficher au moins 2 catégories
+de ce menu, en utisant du PHP. 
+Les élements de ces catégories devront être encodés dans un tableau.
+
+Votre site, doit avoir un jeu (ensemble de couleurs), qui se rapproche le plus possible
+de celui du restaurant choisi. 
+
+3. Imaginez: Il y a un nouvel élément dans la catégorie du menu. 
+Comment l'ajouteriez-vous dans votre site web ? 
+
+Objectif de l'exercice: Utiliser les connaissances acquises en HTML/CSS et PHP
+pour développer un simple site web. 
