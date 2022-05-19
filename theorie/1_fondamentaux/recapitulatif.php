@@ -1,5 +1,7 @@
 <?php
 
+
+
 // initialisation sans donner de valeur
 // serait utilisé plus tard 
 $poidsTotal = NULL; 
@@ -52,6 +54,33 @@ switch($categorie){
 
 }
 
+
+
+echo "<h4>Récap 19/05</h4>"; 
+
+$ageSuzie= 28; 
+$nom2 = "Suzie"; 
+
+echo " $nom2 a $ageSuzie ans"; 
+echo '$nom2 a $ageSuzie ans '; 
+
+var_dump($ageSuzie);
+var_dump($nom2);
+
+$passions = ["sport", "cuisine", "mots-croisés", "cinéma"]; 
+
+print_r($passions);
+
+unset($passions[0]);
+
+print_r($passions);
+
+
+echo "<h4>Foreach</h4>";
+
+foreach ($passions as $maPassion){
+    echo "$maPassion <br/>";
+}
 
 
 
