@@ -68,7 +68,19 @@
     </p>
 
     <?php
-        
+
+        $nombre = 0; 
+        while ($nombre < 30) {
+
+            if($nombre == 15){
+                echo "<strong>$nombre</strong> <br/>";
+            }else {
+                echo $nombre. "<br/>";
+            }
+            $nombre = $nombre + 3; 
+
+        }
+
     ?>
 
 </body>
