@@ -8,7 +8,6 @@
 </head>
 <body>
     
-
     <h3>Comptage jusque 100</h3>
 
     <p>
@@ -16,11 +15,29 @@
         à partir de 1.
     </p>
 
+    <?php
+        $index= 1; 
+        while ($index <= 100) {
+            echo $index. "<br/>";
+            $index++; 
+        }
+    ?>
+
     <h3>Table de muliplication de 3</h3>
 
     <p>
         Avec une boucle for, afficher la table de multiplication de 3
     </p>
+
+    <?php
+
+        $multiplicateur= 3; 
+        for ($i = 0; $i <= 10; $i++) {
+            $resultat = $i * $multiplicateur; 
+            echo "$i x $multiplicateur = ". $resultat. " <br/>";
+        }
+
+    ?> 
     
 
     <h3>Table de muliplication de 6</h3>
@@ -28,7 +45,13 @@
     <p>
         Avec une boucle for, afficher la table de multiplication de 6
     </p>
-
+    
+    <?php
+        $multiplicateur = 6; 
+        for ($i=0; $i <= 10 ; $i++) { 
+            echo "$i x $multiplicateur = ". $i * $multiplicateur. " <br/>"; 
+        }
+    ?>
 
     <h3>Boucle et incrémentation </h3>
 
@@ -43,6 +66,10 @@
         Si la valeur de la variable est égale à 15, 
         il faut la mettre en évidence avec une balise HTML adaptée.
     </p>
+
+    <?php
+        
+    ?>
 
 </body>
 </html>

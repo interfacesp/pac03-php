@@ -34,7 +34,7 @@
             $prixCourgette = 12;
             $prixBanane = 9;
             $somme = $prixBanane + $prixCourgette + $prixFarine; //modifier pour calculer la somme
-            echo 'La somme est de '.$somme;
+            echo ' La somme est de '.$somme;
         ?>
 
         <h4>Capacité train</h4>
