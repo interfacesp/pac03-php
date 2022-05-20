@@ -26,7 +26,9 @@
                             "vanille",
                             "framboise",
                             "caramel",
-                            "Crêpe spéciale"
+                            "Crêpe spéciale",
+                            "Snack au Rhum",
+                            "Durum Fricadelle"
                         ];
                
                 $numberItems = count($menu); 

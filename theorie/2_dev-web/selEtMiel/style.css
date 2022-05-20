@@ -12,10 +12,13 @@ h1 {
     text-align: center;
 }
 
-/* ul{
+ul {
     list-style-type : none;
-} */
+} 
 
+li {
+    text-decoration: line-through;
+}
 footer{
     background-color: lightsalmon;
     color: white;
