@@ -17,7 +17,13 @@
              * 
              * $uneVar, $_uneVar, $ma_var, $HELLO, $var!, $1var et $var1
              */
-
+            $uneVar; //valide
+            $_uneVar; //valide
+            $ma_var; //valide
+            $HELLO; //valide
+            // $var! pas valide
+            // $1var; pas valide
+            $var1; // valide
 
         ?>
 
@@ -27,21 +33,21 @@
             $prixFarine = 15;
             $prixCourgette = 12;
             $prixBanane = 9;
-            $somme = 0; //modifier pour calculer la somme
+            $somme = $prixBanane + $prixCourgette + $prixFarine; //modifier pour calculer la somme
             echo 'La somme est de '.$somme;
         ?>
 
-        <h4>Capacité train</h4
+        <h4>Capacité train</h4>
         
 
         <?php
            
             $nombrePassagersParWagon = 20;
             $nombreWagons = 4;
-            $totalPassagers = 0; //modifier pour calculer le prix nombreWagons co4ris
+            $totalPassagers = $nombrePassagersParWagon * $nombreWagons; //modifier pour calculer le prix nombreWagons 
             echo 'Le total des passagers est de '.$totalPassagers.' personnes ';
          ?>
-        ?>
+        
 
     
 </body>
