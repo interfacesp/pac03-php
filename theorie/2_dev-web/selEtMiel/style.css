@@ -16,9 +16,9 @@ ul {
     list-style-type : none;
 } 
 
-li {
+/* li {
     text-decoration: line-through;
-}
+} */
 footer{
     background-color: lightsalmon;
     color: white;

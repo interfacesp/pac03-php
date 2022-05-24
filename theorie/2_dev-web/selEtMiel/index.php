@@ -27,8 +27,7 @@
                             "framboise",
                             "caramel",
                             "Crêpe spéciale",
-                            "Snack au Rhum",
-                            "Durum Fricadelle"
+                            "Snack au Rhum"
                         ];
                
                 $numberItems = count($menu); 
@@ -41,6 +40,23 @@
         </ul>
         
     </div>
+
+    <div class="carte">
+            <table>
+                <?php
+                    for ($index=0; $index < count($menu); $index++) { 
+                        echo " <tr> <td>".
+                                 $menu[$index]. 
+                                "</td>
+                                <td> 12 EUR </td> 
+                        </tr>"; 
+                    }
+                ?>
+
+            </table>
+    </div>         
+
+   
 
     <footer>
            Telephone number: +321234567
