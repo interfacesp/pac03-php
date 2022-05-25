@@ -27,13 +27,22 @@
                             "framboise",
                             "caramel",
                             "Crêpe spéciale",
-                            "Snack au Rhum"
+                            "Snack au Rhum",
+                            "Chocolat"
                         ];
-               
+                
+                 $menu [] = "Autre chocolat";       
+                 $menu [] = "Chocolat 3"; 
+                 $menu [] = "Chocolat 4";   
+
                 $numberItems = count($menu); 
                 for($i= 0; $i < $numberItems ; $i++){
                         echo  "<li>". $menu[$i]."</li>";
                 }
+
+                $menu [] = "Chocolat 5 "; // ne sera pas affiché                 
+
+
 
             ?>
 
