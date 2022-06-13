@@ -39,7 +39,25 @@
          */
     ?>
 
-    <h4>Mes Passions 4</h4>
+    <h4>Mes Passions 4 - Spécial Indice </h4>
+
+    <?php
+        /** 
+         * Afficher le contenu à l'aide d'une boucle, vous choisirez la mieux adaptée, selon vous. 
+         * 
+         *  Le tableau devrait contenir: ["sport", "cuisine", "mots-croisés", "kayak", "foot", "peinture"];
+         *  Si vous afficher une passion, vous devez afficher la précédente. 
+         *  Exemple: 
+         *  sport -
+         *  cuisine précédé par sport 
+         *  mots-croisés précédé par cuisine
+         *  kayak précédé par mots-croisés
+         * 
+         * 
+         *  ainsi de suite, jusqu'à la fin du tableau 
+         * 
+         */
+    ?>
     
     
 </body>
