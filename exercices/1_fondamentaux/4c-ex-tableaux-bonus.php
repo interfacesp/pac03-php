@@ -18,6 +18,10 @@
          */
 
         $mesPassions = ["sport", "cuisine", "mots-croisés"];
+
+        for($index = 0; $index < count($mesPassions); $index++) {
+            echo "<p>$mesPassions[$index]</p>";
+        }
     ?>
 
     <h4>Mes Passions 2</h4>
@@ -27,6 +31,15 @@
          * 1. Ajouter 3 nouvelles passions dans le tableau précédent (exemple: kayak,foot,peinture) 
          * 2. Afficher le contenu avec une boucle for
          */
+
+         array_push($mesPassions,"kayak", "foot", "peinture");
+        //  $mesPassions[] = "kayak";
+        //  $mesPassions[] = "foot";
+        //  $mesPassions[] = "peinture"; 
+
+         for($curseur = 0; $curseur < count($mesPassions); $curseur++){
+            echo " $mesPassions[$curseur] <br> ";
+         }
     ?>
 
 
@@ -37,6 +50,9 @@
         /**
          * Afficher le premier et dernier élément du tableau des mes passions 
          */
+
+        echo $mesPassions[0]; // le premier
+        echo $mesPassions[count($mesPassions)-1]; // le dernier
     ?>
 
     <h4>Mes Passions 4 - Spécial Indice </h4>
