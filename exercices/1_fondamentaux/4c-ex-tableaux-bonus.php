@@ -73,6 +73,20 @@
          *  ainsi de suite, jusqu'à la fin du tableau 
          * 
          */
+
+         $activites=["sports","cuisine","mots-croises","kayak","foot","peinture"];
+         
+         $nombreActi = count($activites);
+         /**
+          * C'est bien! Mais il faut qu'il y ait au moins 2 éléments dans le tableau
+          * pour qu'on affiche quelque chose
+          */
+         for($index =1; $index < $nombreActi; $index++){
+            echo $activites[$index]." est précédé par ".$activites[$index-1]."<br>";
+         }
+
+
+
     ?>
     
     
