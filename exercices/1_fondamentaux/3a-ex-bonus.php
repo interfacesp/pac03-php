@@ -17,6 +17,23 @@
             Déclarer une variable <em>$nombrePersonnes</em> qui contient une valeur entière  de votre choix. 
             Ecrivez une condition en PHP déterminant si l'ascenseur est plein ou pas.
         </p>
+        <?php
+            $nombrePersonnes = 10;
+
+            if($nombrePersonnes < 6){
+                echo "Il y a de la place";
+            }else {
+                echo "L'ascenceur est plein";
+            }
+
+            if($nombrePersonnes == 6){
+                echo "l'ascenceur est plein";
+            }elseif ($nombrePersonnes < 6) {
+                echo "il y a encore de la place";
+            }else {
+                echo "Le nombre de personnes autorisés est dépassé";
+            }
+        ?>
 
     <h4>Age</h4>
 
@@ -25,6 +42,17 @@
             Ecrivez une condition en PHP déterminant si la personne est mineure ou majeure.
         </p>
 
+
+        <?php
+        
+            $age = 14; 
+            $age_majorite = 18 ; 
+            if($age >= $age_majorite) {
+                echo "tu es bien majeur";
+            }else {
+                echo "tu n'est pas majeur, autrement dit, tu es mineur";
+            }
+        ?>
     
     <h4>Heure</h4>
 
