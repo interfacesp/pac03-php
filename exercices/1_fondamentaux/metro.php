@@ -36,9 +36,13 @@
     echo 'Il y a $nombreArretsTotals arrêts sur le réseau <br>'; //n'évalue pas la variable nombreArretsTotals
     echo "Il y a $nombreArretsTotals arrêts sur le réseau <br>"; 
 
+    echo "<h4>Tram 4</h4>";
+
     for($indice=0;$indice <count($arretsTram4);$indice++){
         echo $arretsTram4[$indice]."<br/>";
     }
+
+    echo "<h4>Metro 1</h4>";
 
     for ($curseur = 0; $curseur < $nombreArretsMetro1; $curseur++){
         echo $arretsMetro1[$curseur]."<br>";
