@@ -60,6 +60,19 @@
             Déclarer une variable <em>$heure</em> avec une valeur entre 0 et 24.
             Ecrivez une condition en PHP déterminant si c'est le matin, midi ou après-midi ou soir
         </p>
+        
+        <?php
+            $heure= 23;
+            if($heure >= 0 && $heure < 12){
+                echo "Nous sommes le matin";
+            }elseif ($heure >= 12 && $heure < 18){
+                echo "Nous sommes l'apres-midi";
+            }elseif ($heure >= 18 && $heure <= 24){
+                echo "Nous sommes le soir";
+            }else {
+                echo "ce n'est pas une heure valide";
+            }
+        ?>
 
 
 </body>

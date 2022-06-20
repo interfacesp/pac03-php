@@ -42,10 +42,24 @@
         echo $arretsTram4[$indice]."<br/>";
     }
 
+
+
     echo "<h4>Metro 1</h4>";
 
     for ($curseur = 0; $curseur < $nombreArretsMetro1; $curseur++){
         echo $arretsMetro1[$curseur]."<br>";
     }
+
+    echo "<h4>Afficher Bourse ou Gare du  midi</h4>";
+
+    echo $arretsTram4[3];//affiche "Bourse"
+    
+    for ($position = 0; $position < $nombreArretsTram4; $position++){
+        
+        if($arretsTram4[$position] == "Bourse" || $arretsTram4[$position] == "Gare du Midi"){
+            echo $arretsTram4[$position];
+        }
+    }
+
 
 ?>
