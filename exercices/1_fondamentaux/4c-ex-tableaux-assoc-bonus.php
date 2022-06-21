@@ -10,6 +10,13 @@
 
 <?php
 
+
+    echo "<h4>Simple vs Double Guillemets</h4>"; 
+
+    $nombre = "un texte"; 
+    echo "double guillemets: affichage de $nombre <br>"; 
+    echo 'simple guillemets: affichage de $nombre <br> ';
+
     /**
      * Déclarer un tableau association: calendrier. 
      * Les clés seront les noms des mois de l'années
@@ -42,7 +49,7 @@
                         "octobre"=>31,
                         "novembre"=>30, 
                         "decembre"=>31,
-                        "annee"=>2022 
+                        "anno"=>2055 
                     ];
  
                             
@@ -62,8 +69,31 @@
        * (indice: regardez documentation PHP pour vous inspirer de comment parcourir )
        * */ 
 
-       
+      
 
+
+       echo "<h4>Calendrier: ".$calendrier2['anno']."</h4>";
+
+       foreach($calendrier2 as $key => $value) {
+
+          if($key == "anno"){
+            echo "";
+          }else {
+            // echo $key." : ".$value." jours <br>";
+            echo "$key : $value jours <br>"; 
+          }
+       }
+
+
+       //Version plus courte - autre logique
+       echo "<h4>Version courte: Calendrier: ".$calendrier2['anno']."</h4>";
+
+       foreach($calendrier2 as $key => $value) {
+
+        if($key != "anno"){
+          echo "$key : $value jours <br>"; 
+        }
+     }
 ?>
 
     
