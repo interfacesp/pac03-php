@@ -37,4 +37,14 @@ foreach($joursSemaine as $jour) {
     echo $jour; 
 }
 
+$ficheId = [
+    "nom" => "Gahungere",
+    "prenom" => "Espoir",
+    "profession" => "formateur" 
+]; 
+
+foreach ($ficheId as $cle => $valeur) {
+    echo "la cle <em>$cle</em> a comme valeur : <strong>$valeur</strong>  <br>"; 
+}  
+
 ?>
