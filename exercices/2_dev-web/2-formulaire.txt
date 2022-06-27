@@ -1,0 +1,18 @@
+Objectifs: 
+- introduire un simple formulaire HTML dans un site
+- définir le fichier/script PHP qui traitera les données du formulaire
+- Récupérer les données soumises à travers la variable globale tableau $_POST 
+
+En partant du site réalisé dans l'exercice 1 (1-site-web-restaurant), 
+
+Ajoutez un formulaire de contact. 
+
+Votre formulaire de contact devra contenir:
+- le nom et prénom de la personne qui vous contacte
+- son adresse email 
+- son numéro de téléphone 
+- le contenu du message
+
+
+Vous afficherez ensuite le résumé des données reçues après soumission du formulaire.
+
