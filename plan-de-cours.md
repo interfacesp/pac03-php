@@ -42,12 +42,16 @@ Le cours est subdivisé en plusieurs parties en suivant l'ordre suivant :
 ### Développement Web 
 
 1. PHP et HTML: Fusion 
-2. Inclusion de fichiers - Organisation en blocs fonctionnels (à suivre)
-3. Envoie de données: Formulaire (à suivre)
-4. Système de connexion
+2. Inclusion de fichiers - Organisation en blocs fonctionnels
+3. Envoie de données: Formulaire 
+4. Système de connexion (Session)
    
 ### Base de données 
-1. Introductio
+1. Structure d'une base de données - exercices 
+2. Introduction à MySQL  
+
+### MVC - Modèle Vue Controleur
+En construction...
 
 ### Php Orienté Objet
 En construction...
