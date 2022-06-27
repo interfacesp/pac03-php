@@ -32,6 +32,9 @@
 
 
     ?>
+    <p>
+         <a href="./fiche.php">Retour</a>
+    </p>
 
 
 </body>
