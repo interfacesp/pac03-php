@@ -154,6 +154,46 @@ echo "<h4>Dernier prénom:</h4>";
    echo "</ol>"; 
 
 
+   /**
+    * Recap 28/06
+    */
+
+    $nombrePersonnes= 15;
+    
+    /**
+     * == égalité stricte
+     * >= supérieur ou égal 
+     * <= inférieur ou égal 
+     * < strictement inférieur
+     * > strictement supérieur
+     */
+    if($nombrePersonnes >= 10){
+      echo "$nombrePersonnes est supérieur ou égal à 10"; 
+    } else {
+      echo "$nombrePersonnes est strictement inférieur à 10";  
+    }
+
+    
+
+    $tableau = [
+               10,
+               15,
+               20,
+               25
+    ]; 
+
+    for($index = 0; $index <= 3; $index++){
+         echo $tableau[$index]. "<br>";
+    }  
+
+    echo "<h4>Que les nombres >= 20 </h4>";
+    for ($index =0 ; $index <= 3; $index++ ) {
+         if($tableau[$index] >= 20){
+            echo $tableau[$index]. "<br>";
+         }
+    }
+
+
 ?>
 
 

@@ -46,14 +46,14 @@ Le cours est subdivisé en plusieurs parties en suivant l'ordre suivant :
 3. Envoie de données: Formulaire 
 4. Système de connexion (Session)
    
-### Base de données 
-1. Structure d'une base de données - exercices 
-2. Introduction à MySQL  
+### Database 
+1. Relational Database structure - exercices 
+2. Introduction - MySQL  
 
 ### MVC - Modèle Vue Controleur
 En construction...
 
-### Php Orienté Objet
+### Php Object
 En construction...
 
   
