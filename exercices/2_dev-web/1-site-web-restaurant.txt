@@ -15,7 +15,7 @@ Les élements de ces catégories devront être encodés dans un tableau.
 Votre site, doit avoir un jeu (ensemble de couleurs), qui se rapproche le plus possible
 de celui du restaurant choisi. 
 
-3. Imaginez: Il y a un nouvel élément dans la catégorie du menu. 
+3. Imaginez: Il y a un nouvel élément dans une des  catégorie du menu (par exemple: nouvelle boisson). 
 Comment l'ajouteriez-vous dans votre site web ? 
 
 Objectif de l'exercice: Utiliser les connaissances acquises en HTML/CSS et PHP
