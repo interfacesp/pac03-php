@@ -28,13 +28,17 @@
     $car; 
 
 
+    /**
+     *  Solution 1: explicitement spécifier les 4 combinaisons possibles 
+     */
+
     if($car && $drivingLicense){ 
         //$car == true && $drivingLicense == true
         echo "conduisez à la gare";
     }elseif ($drivingLicense && !$car ){
         //$drivingLicense == true && $car == false
         echo "vous pouvez louer une voiture pas chère"; 
-    };
+    }
 
     if(!$drivingLicense && $car){
         //$driving == false && $car == true
@@ -43,5 +47,41 @@
         //$car == false  && $drivingLicense == false
         echo "prenez un villo"; 
     }
+
+
+    /**
+     * Solution 2: 
+     *  Focus sur permis d'abord: 
+     *          si oui : 
+     *                  on teste la disponibilité voiture
+     *                      si oui:conduisez gare
+     *                      si non: vous pouvez louer une voiture
+     *          si non:
+     *                  on test la disponibilité voiture
+     *                      si oui: hors la loi
+     *                      si non: prenez un villo
+     *  
+     */
+
+     if($drivingLicense){
+        //Permis
+            if($car) {
+                //on a une voiture
+                echo "conduisez à la gare"; 
+            }else {
+                //pas de voiture
+                echo "vous pouvez louer une voiture";
+            }
+     }else {
+        //Pas de permis 
+            if($car){
+                //on a une voiture
+                echo "hors la loi";
+            }else {
+                //pas de voiture
+                echo "vous pouvez louer un villo";
+            }
+
+     }
 
  ?> 
