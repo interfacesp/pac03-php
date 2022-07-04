@@ -24,5 +24,24 @@
  *  
  */ 
 
+    $drivingLicense;
+    $car; 
+
+
+    if($car && $drivingLicense){ 
+        //$car == true && $drivingLicense == true
+        echo "conduisez à la gare";
+    }elseif ($drivingLicense && !$car ){
+        //$drivingLicense == true && $car == false
+        echo "vous pouvez louer une voiture pas chère"; 
+    };
+
+    if(!$drivingLicense && $car){
+        //$driving == false && $car == true
+        echo "hors la loi";
+    }elseif (! $car && !$drivingLicense){
+        //$car == false  && $drivingLicense == false
+        echo "prenez un villo"; 
+    }
 
  ?> 

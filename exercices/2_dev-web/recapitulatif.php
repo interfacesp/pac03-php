@@ -194,6 +194,74 @@ echo "<h4>Dernier prénom:</h4>";
     }
 
 
+
+/**
+ * Récap 01/07 
+ * 
+ * Variables et types primitifs
+ *    chaines, nombres, boolean
+ * Opérateurs arithmétiques 
+ * 
+ */
+
+ $unNom = "Php";
+ $nombre=  10;
+ $majeur = true; 
+ $nombre2 = 12;
+ $somme = $nombre + $nombre2; 
+
+ if($majeur) {
+   echo "Vous êtes majeur"; 
+ }else {
+   echo "Vous êtes mineur"; 
+ }
+
+ $langagesProgrammation = ["php","javascript", "python"];
+
+ //Parcours avec boucle for
+ for($curseur = 0; $curseur < count($langagesProgrammation); $curseur++ ){
+      echo $langagesProgrammation[$curseur]; 
+ }
+
+ // Parcours avec boucle while
+ $compteur=0; 
+ while ($compteur < count($langagesProgrammation)) {
+   echo $langagesProgrammation[$compteur]; 
+   $compteur++;
+ }
+
+ //Foreach 
+
+ foreach ($langagesProgrammation as $langage) {
+   echo $langage; 
+ }
+
+echo $langagesProgrammation[1]; //affiche javascript
+array_push($langagesProgrammation, "c#"); 
+$langagesProgrammation[] = "C++"; 
+
+ $fournisseur= [
+      "nom" => "Dupont",
+      "pays" => "Belgique"
+ ];
+
+ echo $fournisseur["nom"]; 
+ $fournisseur["adresse"] = "Rue du Moulin"; 
+
+ foreach ($fournisseur as $cle => $valeur){
+   echo "$cle : $valeur <br>";
+ }
+
+/**
+ * A venir
+ * 
+ * Formulaire - transfert de données page en page 
+ * Fonctions 
+ * Inclusion de fichiers - include
+ * MySql - utilisation base de données 
+ */
+
+
 ?>
 
 
