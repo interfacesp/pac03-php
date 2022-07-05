@@ -24,12 +24,24 @@
  *  
  */ 
 
-    $drivingLicense;
-    $car; 
+    $drivingLicense = false;
+    $car = false; 
 
 
     /**
      *  Solution 1: explicitement spécifier les 4 combinaisons possibles 
+     *                  
+     *  drivingLicense: true ou false  
+     *  car : true ou false
+     *   
+     *    drivingLicense    car
+     * 
+     *    true              true
+     *    true              false 
+     *    false             true
+     *    false             false 
+     * 
+     *   ($car && $drivingLicense) toujours égal ($drivingLicense && $car) 
      */
 
     if($car && $drivingLicense){ 
@@ -43,7 +55,7 @@
     if(!$drivingLicense && $car){
         //$driving == false && $car == true
         echo "hors la loi";
-    }elseif (! $car && !$drivingLicense){
+    }elseif (!          $car && !$drivingLicense){
         //$car == false  && $drivingLicense == false
         echo "prenez un villo"; 
     }
@@ -79,7 +91,7 @@
                 echo "hors la loi";
             }else {
                 //pas de voiture
-                echo "vous pouvez louer un villo";
+                echo "prenez un villo";
             }
 
      }

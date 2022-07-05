@@ -74,9 +74,34 @@
       /**
        * Parcourez ce tableau indexé avec un boucle for en affichant la liste des fournisseurs
        */
+    
+       echo "<h4>Parcours Liste fourniseurs</h4>";
 
 
+       $fournisseurs = [
+
+                         [   
+                            "nom" => "IceBreaker",
+                            "addresse" => "Rue du Livourne",
+                            "ville" => "Bruxelles"  
+                        ],
+
+                        [     
+                            "nom" => "CocktailMaker",
+                            "addresse" => "Place de la Bourse",
+                            "ville" => "Bruxelles"  
+                        ],
+                        [
+                            "nom" => "CocoDonut",
+                            "adresse" => "Place du Sablon",
+                            "ville" => "Bruxelles"
+                        ] 
+
+                     ]; 
 
 
+    for($index = 0; $index < count($fournisseurs); $index++){
+        echo $fournisseurs[$index]['nom']. "<br>";
+    }       
 
 ?> 
