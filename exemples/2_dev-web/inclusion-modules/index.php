@@ -11,13 +11,13 @@
 </head>
 <body>
     
-    <?php include 'pages/header.php'; ?> 
+    <?php include 'header.php'; ?> 
 
-    <!-- <?php include 'pages/header.php'; ?> -->
+    <!-- <?php include 'header.php'; ?> -->
 
     <p> Ceci n'est pas un corps comme les autres! </p>
 
-    <?php include_once 'pages/footer.php' ?> 
+    <?php include_once 'footer.php' ?> 
 
 </body>
 </html>
