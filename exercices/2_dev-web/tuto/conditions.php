@@ -12,6 +12,7 @@
   <!-- Header -->
 
     <img src="img/logo-if3.png" alt="Logo Interface 3">
+
     <h1>Mon petit Tuto PHP</h1>
     
     <!-- Navigation menu -->
@@ -31,8 +32,6 @@
     <h4>Exercices - Structures Conditionnelles </h4>
 
         
-
-
      <!-- Footer -->
     
     

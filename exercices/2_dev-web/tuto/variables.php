@@ -29,7 +29,17 @@
 
     <!-- content -->
 
-    <h4>Exercices - Variables </h4>
+    <h4>Exercices</h4>
+
+
+    <h4>Réponses</h4>
+
+
+    <?php
+
+
+    ?>
+
 
      <!-- Footer -->
     
