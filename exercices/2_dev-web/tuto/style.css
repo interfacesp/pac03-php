@@ -1,0 +1,19 @@
+/* From an example on OpenClassRoom */
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+
+img {
+    margin: auto;
+    display: flex;
+}
