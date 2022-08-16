@@ -22,7 +22,7 @@
             <li><a href="variables.php">Variables</a></li>
             <li><a href="conditions.php">Structures Conditionnelles</a></li>
 
-            <!-- up to you next   -->
+            <!-- continue here... -->
 
         </ul> 
     </nav>
