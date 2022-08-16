@@ -31,7 +31,6 @@
 
     <h4>Exercices - Variables </h4>
 
-
      <!-- Footer -->
     
     
