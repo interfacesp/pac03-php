@@ -21,6 +21,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="variables.php">Variables</a></li>
             <li><a href="conditions.php">Structures Conditionnelles</a></li>
+            <li><a href="boucles.php">Boucles</a></li>
+
 
             <!-- continue here... -->
 
@@ -31,14 +33,60 @@
 
     <h4>Exercices</h4>
 
+        <ul>
+            <li>Déclarer une variable 'name' qui contient votre prénom. Afficher le contenu
+                de la variable avec l'instruction 'echo'</li>
+            <li> Déclarer une variable 'lastname' qui contient votre nom de famille. Afficher le contenu </li>
+
+            <li>Afficher sur une seule ligne le contenu de 'name' suivi du contenu de 'lastname' </li>
+ 
+            <li> Déclarer une variable 'budget' avec comme montant 50. Déclarer une autre variable
+        'expense' (dépense) avec montant 15. Afficher le budget restant après retrait de la dépense </li>
+ 
+
+        </ul>
 
     <h4>Réponses</h4>
 
 
-    <?php
+        <ul>    
 
+            <li>
+                <?php
+                    $name = "espoir";
+                    echo $name; 
+                    // echo "<li>". $name."</li>";
+                    // echo "<li>$name</li>";
+                ?> 
+            </li>
+            
+            <li>
+                <?php 
+                    $lastname = "gahungere";  
+                    echo $lastname; 
+                ?>
+                
+            </li>
 
-    ?>
+            <li>
+                <?php 
+                    // echo $name. " ". $lastname;
+                    echo "$name $lastname"; 
+                ?>
+            </li>
+
+            <li>
+
+                <?php 
+                    $budget = 50; 
+                    $expense =  15; 
+                    echo $budget - $expense;
+                ?>
+                
+            </li>
+          
+
+        </ul>
 
 
      <!-- Footer -->
