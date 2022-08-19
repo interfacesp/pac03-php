@@ -47,12 +47,18 @@ where Country = 'Mexico';
 - Quels sont les Clients Français ? (à vous de l'écrire)
 */
 
+SELECT *
+FROM Customers
+WHERE Country = 'France'; 
+
 
 /*
 - Combien y a-t-il de clients Français en tout (à vous de l'écrire) ? 
 */
 
-
+SELECT COUNT(*)
+FROM Customers
+WHERE Country = 'France';
 /*
 - Quel(s) client(s) habite à "Rua do Mercado, 12"? 
 */
@@ -81,14 +87,16 @@ where price > 30;
 - Quels sons les produits dont le prix est plus petit que 10 (à vous) ?  
 */
 
-
+SELECT *
+FROM products
+WHERE price < 10;
 
 
 /*
 - Quels sont les produits de la catégorie "Boissons"?
 */
 
-select *
+select ProductName
 from products
 where categoryID = 1;
 
@@ -97,6 +105,9 @@ where categoryID = 1;
 - Combien de commandes en tout (à vous)? 
 */
 
+SELECT count(*)
+FROM Orders;
+
 
 /*
 - Quels sont les commandes passées en 1996 ? Combien y en a-t-il ? 
@@ -104,12 +115,15 @@ where categoryID = 1;
 
 select *
 from orders 
-where OrderDate like '1996%';
+where OrderDate = '1996%';
 
 
 /*
 - Quelles sont les commandes du client "Hanari Carnes" ( à vous) ?
 */
 
-
+SELECT *
+FROM Customers, Orders
+WHERE Orders.CustomerID = Customers.CustomerID
+    AND Customers.CustomerName = 'Hanari Carnes';
 
