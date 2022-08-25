@@ -32,7 +32,7 @@ Le réseau de transport "mini-stib" aimerait créer une base de données pour mo
 Le magasin de mode Dolqué Gabanna aimerait créer une base de données pour stocker des informations des nouvelles collections.
 
 
-1. Créez une BDD (base de données)
+1. Créez une BDD (base de données) dans MySQL
 2. Créez 2 tables 
    -  Collection 
       -  id-collection (nombre)
@@ -53,10 +53,48 @@ Le magasin de mode Dolqué Gabanna aimerait créer une base de données pour sto
 
 ### Restaurant
 
-Un restaurant étoilé du nom
+Pour une nouvelle émission Top Top Chef, la production voudrait informatiser les différents plats concoctés par les candidat.e.s. 
 
+
+1. Créez une BDD (base de données) dans MySQL
+2. Créez 2 tables 
+   -  Menu 
+      -  id-menu (nombre)
+      -  menu-name(texte)
+      -  nombre-etoiles(nombre)
+   -  Dish
+      -  id-plat (nombre)
+      -  name (texte) 
+      -  id-menu (nombre)
+
+3. Ajouter quelques données dans votre BDD
+4. Ecrivez les requêtes SQL pour répondre  aux questions suivants
+   - Quelles sont toutes les Menus ? 
+   - Combien de Plats ? 
+   - Créer un script PHP permettant d'afficher les différents plats pour chaque Menu ?  
 
 ### Festival 
+
+Un festival nommé Magic Sound créer un catalogue informatique reprenant un ensemble d'artistes avec les genres de musique.  
+
+
+1. Créez une BDD (base de données) dans MySQL
+2. Créez 2 tables 
+   -  Music-Type
+      -  id-type (nombre)
+      -  type-name(texte)
+      -  description (text)
+   -  Artist
+      -  id-artist (nombre)
+      -  name (texte) 
+      -  id-type (nombre): référence le type de musique
+
+3. Ajouter quelques données dans votre BDD
+4. Ecrivez les requêtes SQL pour répondre  aux questions suivants
+   - Quelles sont toutes les Artistes ? 
+   - Combien d'Artistes en tout ? 
+   - Créer un script PHP permettant d'afficher les Artistes par type de musique ?  
+
 
 ### Camping
 
