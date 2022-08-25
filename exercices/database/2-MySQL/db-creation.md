@@ -13,12 +13,12 @@ Le réseau de transport "mini-stib" aimerait créer une base de données pour mo
 2. Créez 2 tables avec les champs suivants: 
    - Lines
      - id (nombre), 
-     - nom(texte),
+     - line-name(texte),
      - distance(nombre)
    - Stops
      - id (nombre)
-     - nom (texte)
-     - id-line(nombre): référence de la ligne
+     - stop-name (texte)
+     - id-line(nombre): référence de la ligne de la table Lines
 
 3. Ajouter quelques données dans votre DB
 4. Ecrivez les requêtes SQL pour répondre  aux questions suivants
@@ -29,9 +29,32 @@ Le réseau de transport "mini-stib" aimerait créer une base de données pour mo
 
 ### Fashion
 
-Le magasin de mode Dolqué Gabanna aimerait créer une base de données 
+Le magasin de mode Dolqué Gabanna aimerait créer une base de données pour stocker des informations des nouvelles collections.
+
+
+1. Créez une BDD (base de données)
+2. Créez 2 tables 
+   -  Collection 
+      -  id-collection (nombre)
+      -  collection-name(texte)
+      -  saison (texte)
+   -  Cloth
+      -  id-cloth (nombre)
+      -  type (texte) 
+      -  name(texte)
+      -  id-collection (nombre)
+
+3. Ajouter quelques données dans votre BDD
+4. Ecrivez les requêtes SQL pour répondre  aux questions suivants
+   - Quelles sont toutes les Collections du magasin ? 
+   - Combien de collection en tout il y a ? 
+   - Créer un script PHP permettant d'afficher les différents vêtements pour chaque collection   
+
 
 ### Restaurant
+
+Un restaurant étoilé du nom
+
 
 ### Festival 
 
