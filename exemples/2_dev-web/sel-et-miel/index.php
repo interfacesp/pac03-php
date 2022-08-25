@@ -65,6 +65,9 @@
             </table>
     </div>         
 
+
+    <a href="gaufres.php">Voir nos gaufres</a>
+
    
 
     <footer>
