@@ -125,9 +125,61 @@ sont possibles.
 
 ### Promenade
 
+L'association Walking Coders veut créer une web app pour répertorier des sentiers de promenade. 
+La web app aura besoin BDD de 2 tables  
+
+1. Créez 2 tables 
+   -  Hike
+      -  id-hike
+      -  region 
+      -  distance
+      -  guide-id
+   -  Guide
+      -  id-guide
+      -  name
+      -  firstname
+
+
 ### Villo
 
+La compagnie Velyx aimerait rivaliser avec Villo. Pour commencer, elle aimerait commencer avec une simple web app. La nouveauté de Velyx: les vélos ont chacun une couleur différente.  
+Faisant appel à vous, vous lui proposez de commencer à image la structure des données. 
+Vous lui proposez une BDD avec 3 tables: 
+
+   - Bike
+     - id-bike
+     - color 
+     - last-location-longitude
+     - last-location-latitude
+   - Customer
+     - id-customer
+     - name
+     - firstname
+     - lastname
+   - Rental
+     - customer-id
+     - bike-id
+     - duration
+
 ### Piano
+
+Une école de musique Musiquality est super réputée de bouche à oreilles. Toutefois, elle n'a pas de visibilité numérique. Elle aimerait développer sa présence sur la toile. 
+Comme vous suivez des cours de piano chez eux et aussi une formation chez Interface3, vous leur proposez de développer une web app en échange d'une réduction de vos frais d'inscription.
+
+2 tables vous semblent évidentes: Cours et Instrument
+
+- Lesson
+  - id-lesson
+  - description
+  - start-date
+  - end-date
+- Instrument
+  - id-instrument
+  - name
+  - description
+
+Sachant que dans un cours, seul un instrument est enseigné, quel structure proposez-vous ? 
+
 
 ### Peinture 
 
