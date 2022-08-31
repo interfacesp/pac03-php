@@ -98,6 +98,31 @@ Un festival nommé Magic Sound créer un catalogue informatique reprenant un ens
 
 ### Camping
 
+Pour tourner le film Camping 5, l'équipe de production et aimerait utiliser une web app pour le tournage. 
+
+Les acteurs sont assignés un type de logement au camping pour une période donnée. Différents types de logements 
+sont possibles. 
+
+   1. Créer une BDD dans MySQL
+   2. Créer les tables:
+        - Accomodation
+          - id-accomodation
+          - description (example: tente, mobile-home,tipi,etc.)
+        - Actor
+          - id
+          - nom
+          - prenom
+          - Age
+        - Assignment
+          - actor-id
+          - accomodation-id
+          - start-date
+          - end-date
+   3. Ajouter quelques données dans votre BDD (à vous d'imaginer)
+   4. Ecrivez des requêtes SQL pour :
+         1. Afficher les types de logements
+   
+
 ### Promenade
 
 ### Villo
