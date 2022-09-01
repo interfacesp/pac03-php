@@ -10,6 +10,20 @@
             "root"
         );
         $mysqlClient->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+
+        $mysqlSelEtMiel = new PDO(
+            sprintf('mysql:host=%s;dbname=%s;port=%s', 
+            "localhost",
+            "sel-et-miel",
+            3306),
+            "root",
+            "root"
+        );
+        $mysqlSelEtMiel->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+
+
     } catch(Exception $exception) {
         die('Oops, il y a eu problème : '.$exception->getMessage());
     }
@@ -88,6 +102,19 @@
                echo  " <p>Distance Ligne: ". $resultLinesStops[$i]['distance']. "</p>";
                echo "<p>Stop: ". $resultLinesStops[$i]['stop_name']."</p>";
             }
+
+
+
+            echo "<h4>Sel et Miel - Demo utilisation autre connexion DB</h4>";
+
+            $queryGaufres ="SELECT * from GAUFRES"; 
+            $statement = $mysqlSelEtMiel->prepare($queryGaufres);
+            $statement->execute();
+            $resultGaufres = $statement->fetchAll();
+
+            print_r($resultGaufres); 
+
+
 
         ?>
 
