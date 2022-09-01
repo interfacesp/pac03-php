@@ -1,34 +1,7 @@
 <?php
-    try {
-
-        $mysqlClient = new PDO(
-            sprintf('mysql:host=%s;dbname=%s;port=%s', 
-            "localhost",
-            "mini-stib",
-            3306),
-            "root",
-            "root"
-        );
-        $mysqlClient->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-        $mysqlSelEtMiel = new PDO(
-            sprintf('mysql:host=%s;dbname=%s;port=%s', 
-            "localhost",
-            "sel-et-miel",
-            3306),
-            "root",
-            "root"
-        );
-        $mysqlSelEtMiel->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-
-    } catch(Exception $exception) {
-        die('Oops, il y a eu problème : '.$exception->getMessage());
-    }
+    include_once 'data/db-sel-miel.php'; 
+    include_once 'data/db-stib.php'; 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
