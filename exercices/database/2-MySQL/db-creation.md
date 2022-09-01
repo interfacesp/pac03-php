@@ -23,8 +23,20 @@ Le réseau de transport "mini-stib" aimerait créer une base de données pour mo
 3. Ajouter quelques données dans votre DB
 4. Ecrivez les requêtes SQL pour répondre  aux questions suivants
    - Quelles sont toutes les lignes de votre réseau ? 
+
+   <!-- SELECT * FROM `line`  -->
+
+
    - Combien de lignes en tout il y a ? 
-   - Créer un script PHP permettant d'afficher tous les arrêts de chaque ligne  
+   
+   <!-- SELECT * FROM `line` WHERE 1 -->
+   
+   - Créer un script PHP permettant d'afficher tous les arrêts de chaque ligne 
+
+   <!-- SELECT *
+   FROM line, stop   
+   WHERE line.id = stop.id_line;  -->
+
 
 
 ### Fashion
