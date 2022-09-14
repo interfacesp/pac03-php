@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soustraction </title>
+    <title>Multiplication </title>
 </head>
 <body>
 
-    <form action="soustraction.php" method="POST">
+    <form action="multiplication.php" method="POST">
 
             <label for="myFirst">Premier Nombre: </label>
             <input type="number" id="myFirst" name="firstNumber">
@@ -40,7 +40,7 @@
             //on peut faire traitement
             $number1 = $_POST['firstNumber'];
             $number2 = $_POST['secondNumber'];
-            $res = $number1 - $number2; 
+            $res = $number1 * $number2; 
             echo $res;  
         }
     ?>
