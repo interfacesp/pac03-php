@@ -10,11 +10,37 @@
 
 
 <?php
+
     /**
-     * Ecrivez une fonction qui détermine si une année est bissextile
+     * Ecrivez une fonction qui détermine si une année est bissextile. 
+     * La fonction reçoit un paramètre: une année quelconque et renvoie true ou false selon que l'année soit bissextile ou pas.
+     * 
+     * Exemple : echo isBissextile(2000); //true
+     *           echo isBissextile(2015); //false
      */
 
+
+    /**
+     * Ecrivez une fonction qui détermine qui détermine la date de naissance, dans un numéro national Belge
+     */
+
+
+     /**
+      * Réécrivez la fonction "array_push()" 
+      */
+
+
+      /**
+       * 
+       */
+
+
+
 ?> 
+
+
+
+
     
 </body>
 </html>
