@@ -11,8 +11,15 @@
 
 <?php
 
+
     /**
        * Ecrivez la fonction "count(tableau)" - qui compte le nombre d'éléments d'un tableau 
+    */
+
+
+      /**
+       * Ecrivez la fonction "sum(tableau)" - qui additionne uniquement les nombres d'un tableau
+       *  
     */
 
 
