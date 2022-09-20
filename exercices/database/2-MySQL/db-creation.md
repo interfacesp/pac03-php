@@ -126,6 +126,7 @@ sont possibles.
           - prenom
           - Age
         - Assignment
+          - id-assign
           - actor-id
           - accomodation-id
           - start-date
