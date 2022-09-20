@@ -12,6 +12,20 @@
 <?php
 
     /**
+       * Ecrivez la fonction "count(tableau)" - qui compte le nombre d'éléments d'un tableau 
+    */
+
+
+    /**
+     * Ecrivez une fonction qui compte la la taille d'un mot de passe.
+     * 
+     * taille($password) - renvoie le nombre de caractères
+     * 
+     */
+
+     
+
+    /**
      * Ecrivez une fonction qui détermine si une année est bissextile. 
      * La fonction reçoit un paramètre: une année quelconque et renvoie true ou false selon que l'année soit bissextile ou pas.
      * 
@@ -21,7 +35,7 @@
 
 
     /**
-     * Ecrivez une fonction qui détermine qui détermine la date de naissance, dans un numéro national Belge
+     * Ecrivez une fonction qui détermine la date de naissance, dans un numéro national Belge
      */
 
 
@@ -29,17 +43,7 @@
       * Réécrivez la fonction "array_push()" 
       */
 
-
-      /**
-       * 
-       */
-
-
-
 ?> 
-
-
-
 
     
 </body>
