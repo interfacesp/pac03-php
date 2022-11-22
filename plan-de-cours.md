@@ -58,10 +58,10 @@ Le cours est subdivisé en plusieurs parties en suivant l'ordre suivant :
    2. Opérations - Create Read Update Delete (via  PhpMyAdmin) 
 
 ### MVC - Modèle Vue Controleur
-En construction...
+https://github.com/interfacesp/if3-mvc
 
 ### Php Object
-En construction...
+https://github.com/interfacesp/dbsf-prefo-OOP
 
 
 
